@@ -33,7 +33,7 @@ databases:
 ```
 
 That's all! Opsdroid will see the `zodb` extension name, check it against all `opsdroid_databases` entry points it is aware of,
-import the extension and use it.
+ the extension and use it.
 
 The above entry point example defines just one database extension. To add more database extensions, or also skill(s) or
 connector(s), simply add them to the same dict data structure, following the extension group naming convention given above.
